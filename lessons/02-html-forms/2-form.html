@@ -6,45 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-<form 
-action="/registration" 
-method="post"
->
 <h1>Регистрация</h1>
-<div>
 <span>Уже есть аккаунт?</span>
-</div>    
-<div>
 <a href="#">Войти</a>
-</div>
 <span>Моя компания</span>
-<div>
+<form action="/registration" 
+method="post">
 <input 
 type="text" 
 placeholder="Имя" 
 name="write_name" 
 id="write_name"
 />
-</div>
-<div>
 <input type="text" 
 placeholder="Фамилия" 
 name="write_second_name" 
 id="write_second_name"
 />
-</div>
-<div>
 <input 
 type="email" 
 placeholder="E-mail" 
 name="email" 
 id="email"
 />
-</div>
-<div>
 <button type="submit">Зарегистрироваться &rarr;</button>
-</div>
-<div>
 <input 
 type="checkbox" 
 name="agree" 
@@ -54,7 +39,6 @@ required
 <label 
 for="agree"> Согласен с обработкой данных
 </label>
-</div>
 <a href="#">Условия пользования</a>
 </form>
 </body>
