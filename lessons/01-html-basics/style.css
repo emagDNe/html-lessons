@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(166, 216, 205);
+	background: linear-gradient(#374151, #111827);
 }
 
 .myBlog {
@@ -16,7 +16,7 @@ nav {
 	color: #ffffff;
 }
 
-.searchHead {
+.search-input {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -70,10 +70,16 @@ h1 {
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
-	text-decoration: underline;
 }
 
-#copyright {
+.third-paragraph {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.copyright {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
