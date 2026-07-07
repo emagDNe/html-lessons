@@ -1,0 +1,81 @@
+body {
+	background-color: rgb(166, 216, 205);
+}
+
+.myBlog {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+nav {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.searchHead {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.firstSpan {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.secondSpan {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.authorName {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.jobName {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.first-paragraph {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.second-paragraph {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#copyright {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.5);
+}
