@@ -1,86 +1,75 @@
 body {
+	font-family: "Roboto", sans-serif;
 	background: linear-gradient(#374151, #111827);
 }
 
 .myBlog {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	color: #ffffff;
 }
 
-nav {
-	font-family: "Roboto", sans-serif;
+.headerNav {
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
 .searchInput {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
 .firstSpan {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #ffffff;
 }
 
 .secondSpan {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #ffffff;
 }
 
-h1 {
-	font-family: "Roboto", sans-serif;
+.title {
 	font-weight: 400;
 	font-size: 24px;
 	color: #ffffff;
 }
 
 .authorName {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
 .jobName {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.5);
 }
 
 .firstParagraph {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #ffffff;
 }
 
 .secondParagraph {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
 .thirdParagraph {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
 .copyright {
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: rgba(255, 255, 255, 0.5);
