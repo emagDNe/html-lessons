@@ -16,7 +16,7 @@ nav {
 	color: #ffffff;
 }
 
-.search-input {
+.searchInput {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -58,21 +58,21 @@ h1 {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-.first-paragraph {
+.firstParagraph {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #ffffff;
 }
 
-.second-paragraph {
+.secondParagraph {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #ffffff;
 }
 
-.third-paragraph {
+.thirdParagraph {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
