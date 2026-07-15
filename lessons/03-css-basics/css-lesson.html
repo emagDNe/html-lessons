@@ -27,17 +27,28 @@
 						placeholder="Имя"
 						name="write_name"
 						id="write_name"
+						class="writeName"
 					/>
 					<input
 						type="text"
 						placeholder="Фамилия"
 						name="write_second_name"
 						id="write_second_name"
+						class="writeSecondName"
 					/>
 					<label for="email"></label>
-					<input type="email" placeholder="E-mail" name="email" id="email" />
-					<button type="submit">Зарегистрироваться &rarr;</button>
-					<a href="#">Условия пользования</a>
+					<input
+						type="email"
+						placeholder="E-mail"
+						name="email"
+						id="email"
+						class="writeEmail"
+						required
+					/>
+					<button type="submit" class="registrationButton">
+						Зарегистрироваться &rarr;
+					</button>
+					<a href="#" class="license">Условия пользования</a>
 					<div>
 						<input type="checkbox" name="agree" id="agree" required />
 						<label for="agree"> Согласен с обработкой данных </label>

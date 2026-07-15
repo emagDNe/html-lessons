@@ -1,9 +1,27 @@
+*::selection {
+	background-color: #e99999;
+}
+
 h1 {
 	color: #333333;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 100%;
 	font-family: "Open Sans", sans-serif;
+}
+
+.writeName:focus,
+.writeEmail:focus,
+.writeSecondName:focus {
+	background-color: #e99999;
+}
+
+.writeEmail:invalid {
+	background-color: #f71b1b;
+}
+
+.writeEmail:valid {
+	background-color: #000000;
 }
 
 main {
@@ -14,21 +32,33 @@ main {
 	font-family: "Open Sans", sans-serif;
 }
 
-a {
+.license {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	color: #089fe0;
+	color: #e99999;
 	line-height: 100%;
 }
 
-button {
+.license::after {
+	content: " !";
+	color: red;
+}
+
+.license:hover {
+	color: #000000;
+}
+
+.registrationButton {
 	background-color: #089fe0;
 	color: #ffffff;
 	width: 394px;
 	height: 44px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
+}
+.registrationButton:active {
+	background-color: #000000;
 }
 
 header {
