@@ -1,39 +1,52 @@
-<!doctype html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<title>Теория цвета</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<header>
-			<img src="images/Rectangle 3.png" alt="Личный кабинет" /> <span>В</span>
-			<a href="#">Мой блог</a>
+			<a href="#" class="myBlog">
+				<span class="letterB">В</span>
+				<span class="blogText">Мой блог</span>
+			</a>
 
-			<nav>
+			<nav class="headerNav">
 				<ul>
-					<li><a href="#">HTML и CSS</a></li>
-					<li><a href="#">Frontend</a></li>
-					<li><a href="#">Backend</a></li>
-					<li><img src="images/Rectangle 3.png" alt="Иконка поиска" />Поиск</li>
+					<li><a href="#" class="navItem1">HTML и CSS</a></li>
+					<li><a href="#" class="navItem2">Frontend</a></li>
+					<li><a href="#" class="navItem3">Backend</a></li>
 				</ul>
 			</nav>
+
+			<form class="search" action="/search" method="get">
+				<input type="text" placeholder="Поиск" class="searchInput" />
+			</form>
 		</header>
 
 		<main>
 			<article>
-				<span>FRONTEND</span>
-				<span>12 мая 2024</span>
+				<span class="firstSpan">FRONTEND</span>
+				<span class="secondSpan">12 мая 2024</span>
 
-				<h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+				<h1 class="title">
+					Теория цвета - Как цвет влияет на поведение потребителей
+				</h1>
 
-				<img src="images/avatar.png" alt="Фото" /><br />
+				<img src="images/avatar.png" alt="Фото" class="avatar" />
 
-				<span>Наталья Васильева</span>
-				<span>Разработчик</span>
+				<span class="authorName">Наталья Васильева</span>
+				<span class="jobName">Разработчик</span>
 
-				<img src="images/image1.png" alt="img1" width="500" /><br /><br />
+				<img src="images/image1.png" alt="img1" class="mainImage" />
 
-				<p>
+				<p class="firstParagraph">
 					Теория цвета - это особенности эмоционального восприятия человеком тех
 					или иных решений. Цвета и различные их комбинации влияют на психику
 					человека, а значит, во многом определяют его поведение. Маркетологи и
@@ -43,14 +56,14 @@
 					посетителей к совершению целевых действий, повысить конверсию.
 				</p>
 
-				<p>
+				<p class="secondParagraph">
 					Универсального ответа на вопрос, как тот или иной цвет влияет на
 					разных людей, нет. Эмоциональная и поведенческая реакция каждого
 					человека зависит от личного опыта. Вместе с тем можно выделить
 					определенные закономерности влияния цветов на поведение пользователей.
 				</p>
 
-				<p>
+				<p class="thirdParagraph">
 					В исследовании «Влияние цвета на маркетинг» (Impact of color on
 					marketing) говорится, что использование разных цветов может
 					существенно влиять на настроение и поведение потребителей.
@@ -62,7 +75,7 @@
 		</main>
 
 		<footer>
-			<span>Все права защищены &copy; 2024</span>
+			<span class="copyright">Все права защищены &copy; 2024</span>
 		</footer>
 	</body>
 </html>

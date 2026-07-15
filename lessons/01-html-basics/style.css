@@ -1,0 +1,174 @@
+body {
+	background: linear-gradient(#374151, #111827);
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+}
+
+.myBlog {
+	color: #ffffff;
+	width: 80px;
+	height: 21px;
+	margin-top: 80px;
+	margin-left: 226px;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.headerNav ul {
+	list-style-type: none;
+}
+
+.headerNav a {
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.navItem1 {
+	width: 90px;
+	height: 19px;
+	margin-top: 81px;
+	margin-left: 383px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.navItem2 {
+	width: 64px;
+	height: 19px;
+	margin-top: 81px;
+	margin-left: 525px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.navItem3 {
+	width: 62px;
+	height: 19px;
+	margin-top: 81px;
+	margin-left: 628px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.search {
+	width: 224px;
+	height: 40px;
+	background: #ffffff;
+	background-color: rgba(31, 41, 55, 0.6);
+	border-radius: 100px; /* не срабатывает */
+}
+
+.searchInput {
+	width: 224px;
+	height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 0 20px;
+}
+
+main {
+	max-width: 896px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.firstSpan {
+	width: 72px;
+	height: 16px;
+	opacity: 60%;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.secondSpan {
+	width: 80px;
+	height: 16px;
+	opacity: 60%;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.title {
+	width: 525px;
+	height: 76px;
+	margin-top: 210px;
+	margin-left: 458px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.avatar {
+	width: 50px;
+	height: 50px;
+	margin-left: 316px;
+	margin-top: 640px;
+	border-radius: 50%;
+}
+
+.authorName {
+	width: 148px;
+	height: 28px;
+	margin-left: 706px;
+	margin-top: 316px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.jobName {
+	width: 85px;
+	height: 28px;
+	margin-left: 706px;
+	margin-top: 341px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.mainImage {
+	width: 896px;
+	height: 594px;
+	margin-top: 397px;
+	margin-left: 272px;
+}
+
+.firstParagraph {
+	width: 708px;
+	height: 101px;
+	margin-top: 1060px;
+	margin-left: 367px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.secondParagraph,
+.thirdParagraph {
+	width: 708;
+	height: 281px;
+	margin-top: 1346px;
+	margin-left: 366px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.copyright {
+	width: 226px;
+	height: 28px;
+	margin-top: 1730px;
+	margin-left: 608px;
+	font-weight: 400;
+	font-size: 16px;
+}

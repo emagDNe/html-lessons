@@ -10,20 +10,6 @@ h1 {
 	font-family: "Open Sans", sans-serif;
 }
 
-.writeName:focus,
-.writeEmail:focus,
-.writeSecondName:focus {
-	background-color: #e99999;
-}
-
-.writeEmail:invalid {
-	background-color: #f71b1b;
-}
-
-.writeEmail:valid {
-	background-color: #000000;
-}
-
 main {
 	background-color: #f5f5f5;
 	color: #999999;
@@ -32,6 +18,14 @@ main {
 	font-family: "Open Sans", sans-serif;
 }
 
+.input {
+	&::placeholder {
+		color: crimson;
+	}
+	&:hover {
+		background-color: #ff00aa;
+	}
+}
 .license {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
