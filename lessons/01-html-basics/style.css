@@ -1,0 +1,76 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background: linear-gradient(#374151, #111827);
+}
+
+.myBlog {
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.headerNav {
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.searchInput {
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.firstSpan {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.secondSpan {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.title {
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.authorName {
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.jobName {
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.firstParagraph {
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.secondParagraph {
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.thirdParagraph {
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.copyright {
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.5);
+}
