@@ -29,8 +29,13 @@ body {
 .navItem1 {
 	width: 90px;
 	height: 19px;
-	margin-top: 81px;
+
+	padding-left: 525px;
+	padding-top: 81px;
+	padding-right: 851px;
+	padding-bottom: 1416px;
 	margin-left: 383px;
+	margin-top: 81px;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -38,8 +43,12 @@ body {
 .navItem2 {
 	width: 64px;
 	height: 19px;
+	padding-left: 383px;
+	padding-top: 81px;
+	padding-right: 967px;
+	padding-bottom: 1416px;
+	margin-left: 383px;
 	margin-top: 81px;
-	margin-left: 525px;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -47,8 +56,12 @@ body {
 .navItem3 {
 	width: 62px;
 	height: 19px;
+	padding-left: 628px;
+	padding-top: 81px;
+	padding-right: 750px;
+	padding-bottom: 1416px;
+	margin-left: 383px;
 	margin-top: 81px;
-	margin-left: 628px;
 	font-size: 16px;
 	font-weight: 400;
 }
